@@ -1,0 +1,24 @@
+body{
+	background-image: linear-gradient(to right, #191970, #1E90FF);
+}
+
+h2{
+	position: absolute;
+	right: 50%;
+	top: 65%;
+}
+
+.logo{
+	width: 115px;
+	position: absolute;
+	right: 50%;
+	top: 20%;
+}
+
+.bottom{
+	width: 400px;
+}
+
+.form{
+	margin: auto;
+}
