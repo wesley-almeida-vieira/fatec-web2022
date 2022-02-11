@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulario</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		
+		*{
+			padding: 0;
+			margin: 0;
+		}
+
+		body{
+			background: gray;
+			font-family: sans-serif;
+		}
+
+		label{
+			color: gray;
+		}
+
+		.card{
+			width: 350px;
+			margin: 20px auto;
+			background: white;
+			padding: 20px;
+			border-radius: 10px;
+			height: 400px;
+		}
+
+		.titulo{
+			text-align: center;
+			color: red;
+		}
+
+		.input-digitar{
+			width: 100%;
+			display: block;
+			padding: 5px;
+			margin-bottom: 20px;
+			border-radius: 10px;
+		}
+
+		.input-clicar{
+			width: 100%;
+			padding: 5px;
+			border-radius: 30px;
+			background: linear-gradient(to right, purple, pink);
+			color: white;
+			outline: none;
+			cursor: pointer;
+			text-align: center;
+		}
+
+		.input-clicar:hover{
+			background: linear-gradient(to left, purple, pink);
+			outline: none;
+		}
+
+		
+
+
+
+
+
+
+	</style>
+</head>
+
+<body>
+
+	<form>
+		
+		<div class="card">
+			
+			<div class="titulo">
+				<h2>Login</h2>
+			</div>
+
+			<div>
+				<label>Email</label>
+				<input class="input-digitar" type="email" name="email" placeholder="Digite seu email..." required>
+			</div>
+
+			<div>
+				<label>Senha</label>
+				<input class="input-digitar" type="password" name="senha" placeholder="Digite sua senha..." required>
+			</div>
+
+			<div>
+				<input class="input-clicar" type="submit" name="entrar" value="Entrar">
+			</div>
+
+		</div>
+
+
+
+	</form>
+
+</body>
+</html>
